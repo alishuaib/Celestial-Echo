@@ -1,0 +1,18 @@
+<svg id="_0" data-name="0"
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143.19 143.19">
+	<defs>
+		<style>.cls-1,.cls-2{fill:#fff;}.cls-1,.cls-3{stroke:#fff;}.cls-1{stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}.cls-3{fill:none;stroke-miterlimit:10;}</style>
+	</defs>
+	<g id="LINE-9" data-name="LINE">
+		<polygon class="cls-2" points="66.49 55.43 66.49 87.89 39.44 71.66 66.49 55.43"/>
+		<line class="cls-3" x1="66.49" y1="55.43" x2="66.49" y2="87.89"/>
+		<line class="cls-3" x1="66.49" y1="55.43" x2="39.44" y2="71.66"/>
+		<line class="cls-3" x1="39.44" y1="71.66" x2="66.49" y2="87.89"/>
+	</g>
+	<g id="LINE-10" data-name="LINE">
+		<polygon class="cls-2" points="98.95 55.43 98.95 87.89 71.9 71.66 98.95 55.43"/>
+		<line class="cls-3" x1="98.95" y1="87.89" x2="98.95" y2="55.43"/>
+		<line class="cls-3" x1="98.95" y1="55.43" x2="71.9" y2="71.66"/>
+		<line class="cls-3" x1="71.9" y1="71.66" x2="98.95" y2="87.89"/>
+	</g>
+</svg>

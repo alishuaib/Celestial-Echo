@@ -1,0 +1,21 @@
+<svg id="_0" data-name="0"
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.71 153.71">
+	<defs>
+		<style>.cls-1,.cls-2{fill:#fff;}.cls-1,.cls-3{stroke:#fcfcfc;}.cls-1{stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}.cls-3{fill:none;stroke-miterlimit:10;}</style>
+	</defs>
+	<title>Pause white</title>
+	<g id="LINE-9" data-name="LINE">
+		<rect class="cls-2" x="55.22" y="45.17" width="16.22" height="64.91"/>
+		<line class="cls-3" x1="55.22" y1="110.08" x2="55.22" y2="45.17"/>
+		<line class="cls-3" x1="71.44" y1="45.17" x2="71.44" y2="110.08"/>
+		<line class="cls-3" x1="55.22" y1="110.08" x2="71.44" y2="110.08"/>
+		<line class="cls-3" x1="55.22" y1="45.17" x2="71.44" y2="45.17"/>
+	</g>
+	<g id="LINE-10" data-name="LINE">
+		<rect class="cls-2" x="82.26" y="45.17" width="16.23" height="64.91"/>
+		<line class="cls-3" x1="98.5" y1="45.17" x2="98.5" y2="110.08"/>
+		<line class="cls-3" x1="82.26" y1="110.08" x2="82.26" y2="45.17"/>
+		<line class="cls-3" x1="82.26" y1="110.08" x2="98.5" y2="110.08"/>
+		<line class="cls-3" x1="82.26" y1="45.17" x2="98.5" y2="45.17"/>
+	</g>
+</svg>

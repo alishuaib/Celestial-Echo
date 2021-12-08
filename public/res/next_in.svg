@@ -1,0 +1,19 @@
+<svg id="_0" data-name="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 142.77 142.77">
+    <defs>
+        <style>.cls-1,.cls-2{fill:#fff}.cls-1,.cls-3{stroke:#fff;}.cls-1{stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}.cls-3{fill:none;stroke-miterlimit:10;}
+        </style>
+    </defs>
+    <title>Forward Inside</title>
+    <g id="LINE-9" data-name="LINE">
+        <polygon class="cls-2" points="71.38 72.15 44.33 89.05 44.28 89.05 44.28 55.92 44.33 55.92 71.38 72.15"/>
+        <line class="cls-3" x1="44.33" y1="55.92" x2="71.38" y2="72.15"/>
+        <line class="cls-3" x1="44.33" y1="89.05" x2="71.38" y2="72.15"/>
+        <line class="cls-3" x1="44.28" y1="55.92" x2="44.28" y2="89.05"/>
+    </g>
+    <g id="LINE-10" data-name="LINE">
+        <polygon class="cls-2" points="103.84 72.15 76.79 88.38 76.79 55.92 103.84 72.15"/>
+        <line class="cls-3" x1="76.79" y1="55.92" x2="103.84" y2="72.15"/>
+        <line class="cls-3" x1="103.84" y1="72.15" x2="76.79" y2="88.38"/>
+        <line class="cls-3" x1="76.79" y1="55.92" x2="76.79" y2="88.38"/>
+    </g>
+</svg>

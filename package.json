@@ -1,0 +1,19 @@
+{
+  "name": "nodeexpress",
+  "version": "1.0.0",
+  "description": "Test app for node express to host celestial echo and create a bg api to access song list",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index -e html,css,js"
+  },
+  "author": "Primo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

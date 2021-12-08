@@ -1,0 +1,31 @@
+<svg id="_0" data-name="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 142.77 142.77">
+    <defs>
+        <style>.cls-1,.cls-2{fill:#fff}.cls-1,.cls-3{stroke:#fff;}.cls-1{stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}.cls-3{fill:none;stroke-miterlimit:10;}
+        </style>
+    </defs>
+    <title>Forward white</title>
+    <g id="LINE">
+        <line class="cls-1" x1="41.53" y1="142.41" x2="1.35" y2="41.96"/>
+    </g>
+    <g id="LINE-2" data-name="LINE">
+        <line class="cls-1" x1="1.35" y1="41.96" x2="101.8" y2="1.78"/>
+    </g>
+    <g id="LINE-3" data-name="LINE">
+        <line class="cls-1" x1="101.8" y1="1.78" x2="141.98" y2="102.23"/>
+    </g>
+    <g id="LINE-4" data-name="LINE">
+        <line class="cls-1" x1="141.98" y1="102.23" x2="41.53" y2="142.41"/>
+    </g>
+    <g id="LINE-5" data-name="LINE">
+        <line class="cls-1" x1="0.35" y1="99.79" x2="99.79" y2="142.41"/>
+    </g>
+    <g id="LINE-6" data-name="LINE">
+        <line class="cls-1" x1="99.79" y1="142.41" x2="142.41" y2="42.97"/>
+    </g>    
+    <g id="LINE-7" data-name="LINE">
+        <line class="cls-1" x1="142.41" y1="42.97" x2="42.97" y2="0.35"/>
+    </g>
+    <g id="LINE-8" data-name="LINE">
+        <line class="cls-1" x1="42.97" y1="0.35" x2="0.35" y2="99.79"/>
+    </g>
+</svg>

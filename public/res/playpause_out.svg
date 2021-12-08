@@ -1,0 +1,31 @@
+<svg id="_0" data-name="0"
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.71 153.71">
+	<defs>
+		<style>.cls-1,.cls-2{fill:#fff;}.cls-1{stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.5px;}</style>
+	</defs>
+	<title>Play white</title>
+	<g id="LINE">
+		<line class="cls-1" x1="22.76" y1="131.72" x2="130.95" y2="131.72"/>
+	</g>
+	<g id="LINE-2" data-name="LINE">
+		<line class="cls-1" x1="22.76" y1="131.72" x2="22.76" y2="23.53"/>
+	</g>
+	<g id="LINE-3" data-name="LINE">
+		<line class="cls-1" x1="22.76" y1="23.53" x2="130.95" y2="23.53"/>
+	</g>
+	<g id="LINE-4" data-name="LINE">
+		<line class="cls-1" x1="130.95" y1="23.53" x2="130.95" y2="131.72"/>
+	</g>
+	<g id="LINE-5" data-name="LINE">
+		<line class="cls-1" x1="0.35" y1="76.85" x2="76.85" y2="0.35"/>
+	</g>
+	<g id="LINE-6" data-name="LINE">
+		<line class="cls-1" x1="76.85" y1="0.35" x2="153.35" y2="76.85"/>
+	</g>
+	<g id="LINE-7" data-name="LINE">
+		<line class="cls-1" x1="153.35" y1="76.85" x2="76.85" y2="153.35"/>
+	</g>
+	<g id="LINE-8" data-name="LINE">
+		<line class="cls-1" x1="76.85" y1="153.35" x2="0.35" y2="76.85"/>
+	</g>
+</svg>

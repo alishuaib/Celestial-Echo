@@ -1,0 +1,19 @@
+:root{
+    --kofi-overlay-height:75vh;
+}
+
+.floating-chat-kofi-popup-iframe{
+    position: relative;
+    bottom: 0;
+    left:-150px;
+    top:1%;
+    right:0;
+
+}
+.floatingchat-container-wrap{
+    position: relative;
+}
+.floating-chat-kofi-popup-iframe-mobi{
+    visibility: hidden;
+    pointer-events: none;
+}

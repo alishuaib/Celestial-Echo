@@ -1,0 +1,215 @@
+<!-- 
+    What needs to be done
+
+!Duration tooltip on bar cursor
+!Now playing album artist change to duration 
+>>  Customize scroll bars for chrome
+!Website Logo
+!Website Load overlay
+>>  Pick Font for site
+>>  Album overlay text and arrow design
+!Album overlay arrow direction change on click
+!Navbar arrow design
+XNavbar arrow change direction on dropdown
+?Support for pso2 music + quick link
+>>  Mobile page indicating its underconstruction
+?PSO2 Specific background, Darker, ?Earth, Galaxy like look  
+$~ Deploy V1.0beta
+Testing 
+Add Songs for PSO2
+$~ Release V1.0
+
+Add Update Board
+Add Low-Tier PC/Mobile Support (Disable Particle Effects and other performance heavy features)
+Design Mobile page:
+    Change disc to top of page
+    Media center
+    Song list on bottom
+    Navbar down on tap
+        Album overlay open from nav bar
+        Change kofi widget to btn
+    Progress bar with media, straight 
+
+$~ Deploy V2.0beta
+Testing 
+$~ Release V2.0
+    End Of Current Project.
+!Update for PSO2 NGS as time comes around
+    New Icon on nav, loading + quick link
+    ?PSO2 NGS background
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Website Details -->
+    <meta charset="UTF-8">
+    <meta property="og:type" content="website"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Site Title and Icon -->
+    <title>Celestial Echo</title>
+    <meta property="og:title" content="Celestial Memories">
+    <meta property="og:site_name" content="Celestial Memories"> 
+    <link rel='icon' href="">   
+    
+    <!-- Discord Embed Integration --> 
+    <meta property="og:url" content="https://">
+    <meta property="og:description" content="Genshin and Phantasy Star Online 2 Music">
+    <meta name="og:image" itemprop="image" content="">
+
+    <!-- Style and JS Imports -->
+    <link rel= "stylesheet" type= "text/css" href= "css/style.css">    
+    <link rel= "stylesheet" type= "text/css" href= "css/stars.css">    
+</head>
+<body id="main_body">
+    <!-- Starting Page -->
+    <section class="welcome-page" id="welcome">
+        <div class="canvas" id="starsW">
+            <div id="loadW"></div>
+        </div>
+        <div id="welcome-cont">
+            <div id="logoW-cont">
+                <img class="logoW" src="res/logo.svg" alt="" srcset="">
+                <img class="shadow" src="res/logo.svg" alt="" srcset="">
+            </div>            
+            <p id="promptW"> Select a series below </p>
+            <div class="welcome-series">                
+                <img id="genshinW" src="res/genshin.png" alt="" srcset="">
+                <img id="pso2W" src="res/pso2.png" alt="" srcset="" style="">
+            </div>            
+        </div>        
+    </section>
+    <!-- BG Effect - Solid Color, Clouds, Particles -->    
+    <section id="particle-container">
+        <div class="canvas" id="stars" style=""></div>
+        <img id="cframe" src="res/sky5.png" alt="">
+        <!-- <div class="canvas" id="particles"></div> -->
+        <div class="canvas" id="clouds"></div>
+    </section>    
+    <!-- Navbar -->
+    <nav id="nav" class="dropdown">
+        <div class="logo">
+            <img class="unselect" src="res/logo.svg" alt="" srcset="">
+        </div>
+        <div class="series">
+            <img class="unselect" id="genshin" src="res/genshin.png" alt="" srcset="">
+            <img class="unselect" id="pso2" src="res/pso2.png" alt="" srcset="" style="filter:brightness(50%);">
+        </div>
+        <div class="info" >     
+            <div id="kofi-btn"></div>
+            <!-- <img src="https://via.placeholder.com/100x40/120" alt="" srcset="">
+            <img src="https://via.placeholder.com/40x40/255" alt="" srcset=""> -->
+        </div>
+        <p id="nav-after">▼▼▼</p>
+    </nav>    
+    <!-- Album List Overlay -->
+    <section id="album_overlay" class="rightdown">
+        <div id="a_bar">
+            <p id="overlay_arrow">ᐊᐊ</p>
+            <p id="a_bar_title">ALBUMS</p>
+        </div>
+        <div class="album_container">
+            <div id="a_albums">
+            </div>
+        </div>
+        <div class="asongs_container">
+            <div id="a_songs">
+            </div>
+        </div>
+        
+        
+    </section>
+    <!-- Main Elements -->
+    <section id="main">
+        <div id="disc-container">
+            <div id="disc-move" class="pass">
+                <div id="disc-spinner" class="pass">
+                    <img class="disc unselect pass" src="res/disc_c2.svg" alt="disc" >
+                    <div id="disc-album"></div>
+                    <!-- <img id="disc-album" class="unselect" src=""> -->
+                    <div id="hole"></div>      
+                </div>                
+            </div>
+            <!-- SVG Progress Bar Path -->
+            <div id="bar-container">
+                <div id="cursor-bar" title="This is duration"></div>
+                <svg 
+                    id="progress-bar"
+                    viewBox="0 0 79 154.24"
+                    height=82.6vh>
+                    <defs>
+                        <style>.cls-2{fill:none;stroke:white;stroke-linejoin:round;stroke-width:1px;}</style>
+                    </defs>
+                    <path class="cls-2" d="M.8,1.07A76.76,76.76,0,0,1,77.57,77.83,76.77,76.77,0,0,1,.8,154.6" transform="translate(-0.45 -0.72)"/>
+                </svg>
+                <svg 
+                    id="shadow-bar"
+                    viewBox="0 0 79 154.24"
+                    height=82.6vh>
+                    <defs>
+                        <style>.cls-1{fill:none;stroke:darkgrey;stroke-linejoin:round;stroke-width:1px;}</style>
+                    </defs>
+                    <path class="cls-1" d="M.8,1.07A76.76,76.76,0,0,1,77.57,77.83,76.77,76.77,0,0,1,.8,154.6" transform="translate(-0.45 -0.72)"/>
+                </svg>
+            </div>              
+        </div>  
+        <div id="media-container">
+            <div class="spacer">
+                <img class="unselect" src="res/spacer.svg" alt="spacer">
+            </div>
+            <div class="btn-container">
+                <div class="btn next anim_img_next" style="display: grid;">
+                    <img class="unselect" id="img_next" src="res/next.svg" alt="next"> 
+                    <img class="unselect" id="img_nextf" src="res/next.svg" alt="next"> 
+                    <img class="unselect" id="img_nextin" src="res/next_in.svg">                     
+                </div>
+                <div class="btn playpause">
+                    <img class="unselect" id="img_play" src="res/play.svg" alt="play/pause" >
+                    <img class="unselect" id="img_playb"src="res/playpause_out.svg">  
+                    <img class="unselect" id="img_playc"src="res/playpause_out.svg">
+                </div>
+                <div class="btn back anim_img_back">
+                    <img class="unselect" id="img_back" src="res/back.svg" alt="disabled" >
+                    <img class="unselect" id="img_backf" src="res/back.svg" alt="disabled" >
+                    <img class="unselect" id="img_backin" src="res/back_in.svg">  
+                </div>
+            </div>
+            <div class="now-playing">
+                <p id="npsong" class="npsong_title">Click a song from the list</p>
+                <p id="npartist" class="npsong_artist">---</p>
+            </div>
+        </div>
+        <div id="song-container">
+            <div class="menu-container">
+                <div id="search-container">
+                    <img src="res/search.svg" id="search_img">
+                    <input autocomplete="off" type="text" id="search_input" placeholder="Search...">
+                </div>
+                <div id="list-container">
+                    <div id="song-list">
+                    </div>
+                </div>
+            </div>
+
+            <div id="#hide">
+                <button id="hide_btn">>></button>
+            </div>            
+        </div>   
+    </section>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.19.3/tsparticles.min.js"></script>
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script type='text/javascript' src='js/Widget_2.js'></script>     
+    <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.js"></script>
+    <script src="js/welcome.js"></script> 
+    <script src="js/animation.js"></script>
+    <script src="js/song_handler.js"></script>
+    <script src="js/album.js"></script>
+    <link rel= "stylesheet" type= "text/css" href= "css/kofi.css"> 
+    <script src="js/kofi.js"></script>    
+    <script src="js/kofi.js"></script>    
+    
+    
+</body>
